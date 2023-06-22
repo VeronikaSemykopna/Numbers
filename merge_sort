@@ -1,0 +1,5 @@
+merge_sort() and merge(). The merge_sort() function recursively divides the input list nums into two halves until the base case is reached (when the list has one element or is empty). Then, it calls the merge() function to merge and sort the divided halves.
+
+The merge() function takes two sorted halves (left and right) and merges them into a single sorted list. It uses two pointers, left_index and right_index, to iterate through the two halves and compares the elements at the current positions. The smaller element is appended to the merged list, and the corresponding pointer is incremented. This process continues until one of the halves is exhausted. Finally, any remaining elements from the unfinished half are appended to the merged list.
+
+We initialize a list of numbers nums = [9, 3, 17, 5, 1, 4]. We then call the merge_sort() function with nums and store the sorted list in sorted_nums. Finally, we print the sorted numbers on the screen.
